@@ -15,6 +15,15 @@
 		FF4A8FE11F1728A1008821E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A8FDF1F1728A1008821E8 /* LaunchScreen.storyboard */; };
 		FF4A8FEC1F1728A1008821E8 /* CleanSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A8FEB1F1728A1008821E8 /* CleanSwiftTests.swift */; };
 		FF4A8FF71F1728A1008821E8 /* CleanSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A8FF61F1728A1008821E8 /* CleanSwiftUITests.swift */; };
+		FF7E64351F1774520013B9EC /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E642C1F1774520013B9EC /* LoginConfigurator.swift */; };
+		FF7E64361F1774520013B9EC /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E642D1F1774520013B9EC /* LoginEntity.swift */; };
+		FF7E64371F1774520013B9EC /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E642E1F1774520013B9EC /* LoginInteractor.swift */; };
+		FF7E64381F1774520013B9EC /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E642F1F1774520013B9EC /* LoginModels.swift */; };
+		FF7E64391F1774520013B9EC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E64301F1774520013B9EC /* LoginPresenter.swift */; };
+		FF7E643A1F1774520013B9EC /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E64311F1774520013B9EC /* LoginRouter.swift */; };
+		FF7E643B1F1774520013B9EC /* LoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E64321F1774520013B9EC /* LoginStore.swift */; };
+		FF7E643C1F1774520013B9EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E64331F1774520013B9EC /* LoginViewController.swift */; };
+		FF7E643D1F1774520013B9EC /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E64341F1774520013B9EC /* LoginWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		FF4A8FF21F1728A1008821E8 /* CleanSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A8FF61F1728A1008821E8 /* CleanSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftUITests.swift; sourceTree = "<group>"; };
 		FF4A8FF81F1728A1008821E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7E642C1F1774520013B9EC /* LoginConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		FF7E642D1F1774520013B9EC /* LoginEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
+		FF7E642E1F1774520013B9EC /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		FF7E642F1F1774520013B9EC /* LoginModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		FF7E64301F1774520013B9EC /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		FF7E64311F1774520013B9EC /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		FF7E64321F1774520013B9EC /* LoginStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStore.swift; sourceTree = "<group>"; };
+		FF7E64331F1774520013B9EC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF7E64341F1774520013B9EC /* LoginWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +157,9 @@
 		FF4A90041F1728DA008821E8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FF4A90101F1757AE008821E8 /* Details */,
+				FF4A900F1F1757A6008821E8 /* Landing */,
+				FF4A900E1F175646008821E8 /* Login */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -190,6 +211,36 @@
 			children = (
 			);
 			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		FF4A900E1F175646008821E8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E642C1F1774520013B9EC /* LoginConfigurator.swift */,
+				FF7E642D1F1774520013B9EC /* LoginEntity.swift */,
+				FF7E642E1F1774520013B9EC /* LoginInteractor.swift */,
+				FF7E642F1F1774520013B9EC /* LoginModels.swift */,
+				FF7E64301F1774520013B9EC /* LoginPresenter.swift */,
+				FF7E64311F1774520013B9EC /* LoginRouter.swift */,
+				FF7E64321F1774520013B9EC /* LoginStore.swift */,
+				FF7E64331F1774520013B9EC /* LoginViewController.swift */,
+				FF7E64341F1774520013B9EC /* LoginWorker.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FF4A900F1F1757A6008821E8 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Landing;
+			sourceTree = "<group>";
+		};
+		FF4A90101F1757AE008821E8 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,9 +377,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7E64391F1774520013B9EC /* LoginPresenter.swift in Sources */,
+				FF7E64361F1774520013B9EC /* LoginEntity.swift in Sources */,
 				FF4A8FDC1F1728A1008821E8 /* CleanSwift.xcdatamodeld in Sources */,
+				FF7E64381F1774520013B9EC /* LoginModels.swift in Sources */,
+				FF7E64371F1774520013B9EC /* LoginInteractor.swift in Sources */,
+				FF7E643A1F1774520013B9EC /* LoginRouter.swift in Sources */,
 				FF4A8FD61F1728A1008821E8 /* ViewController.swift in Sources */,
+				FF7E643B1F1774520013B9EC /* LoginStore.swift in Sources */,
+				FF7E64351F1774520013B9EC /* LoginConfigurator.swift in Sources */,
 				FF4A8FD41F1728A1008821E8 /* AppDelegate.swift in Sources */,
+				FF7E643C1F1774520013B9EC /* LoginViewController.swift in Sources */,
+				FF7E643D1F1774520013B9EC /* LoginWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +635,7 @@
 				FF4A8FFD1F1728A1008821E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4A8FFE1F1728A1008821E8 /* Build configuration list for PBXNativeTarget "CleanSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +644,7 @@
 				FF4A90001F1728A1008821E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4A90011F1728A1008821E8 /* Build configuration list for PBXNativeTarget "CleanSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +653,7 @@
 				FF4A90031F1728A1008821E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
