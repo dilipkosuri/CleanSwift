@@ -2,7 +2,7 @@
 //  LoginEntity.swift
 //  CleanSwift
 //
-//  Created by SGpad MBP 019 on 13/7/17.
+//  Created by DILIP KOSURI on 13/7/17.
 //  Copyright (c) 2017 DILIP KOSURI. All rights reserved.
 //
 

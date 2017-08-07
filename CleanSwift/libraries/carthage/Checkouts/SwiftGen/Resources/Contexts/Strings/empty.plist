@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enumName</key>
+	<string>L10n</string>
+	<key>param</key>
+	<dict>
+		<key>enumName</key>
+		<string>L10n</string>
+	</dict>
+	<key>strings</key>
+	<array/>
+	<key>structuredStrings</key>
+	<dict/>
+	<key>tableName</key>
+	<string>Localizable</string>
+	<key>tables</key>
+	<array>
+		<dict>
+			<key>levels</key>
+			<dict/>
+			<key>name</key>
+			<string>Localizable</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+/*
+ Localizable.strings
+ CleanSwift
+ 
+ Created by DILIP KOSURI on 7/8/17.
+ Copyright © 2017 DILIP KOSURI. All rights reserved.
+ */
+
+/* Enter Name text. */
+"l_enter_name_text" = "Entrez votre nom ici";
+
+/* Enter Favorite movie text. */
+"l_enter_favorite_movie_text" = "Entrez votre film préféré";
+
+/* Disclaimer text message. */
+"l_disclaimer_text" = "Remarque: Les détails saisis ici ne seront pas sauvegardés à la sortie";
+
+/* More info text message. */
+"l_more_info_text" = "Plus d'information";
+
+/* Translate to french text message */
+"l_french_locale_text" = "Traduire en français";

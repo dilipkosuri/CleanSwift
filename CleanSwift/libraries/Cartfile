@@ -1,0 +1,9 @@
+# CREATED BY DILIP KOSURI
+
+#Add the libraries/plugins from Github below. To fetch the dependencies run the following command:
+#carthage bootstrap --no-use-binaries --platform iOS
+
+
+# Swiftgen might not be moved into build folder as it does not have IOS scheme. Hence it should be read from the libraries/carthage/checkouts directory itself.
+
+github "SwiftGen/SwiftGen" ~> 4.2.0
